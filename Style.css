@@ -1,0 +1,585 @@
+/* ------- Estilos CSS - Website da Empresa ------- */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+/* ------- Botões e WhatsApp ------- */
+.fa-whatsapp {
+  font-size: 15px;
+  margin-top: 20px;
+  color: #000;
+}
+.whatsapp-link {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 200px;
+  right: 60px;
+  margin-right: 15px;
+  background-color: rgb(31, 140, 212);
+  color: rgb(0, 0, 0);
+  border-radius: 60px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 4px 5px 6px rgb(0, 0, 0);
+  z-index: 1000;
+}
+.fa-facebook {
+  margin-top: 8px;
+  color: rgb(233, 233, 233);
+  height: 4px;
+  width: 4px;
+}
+.fa-instagram {
+  margin-top: 8px;
+  color: rgb(233, 233, 233);
+}
+.fa:visited {
+  color: #1479d6;
+}
+.fa:hover {
+  color: #1479d6;
+  font-weight: 500;
+}
+.fa:active {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 800;
+}
+/* .fa-angle-double-down {
+
+  padding-left: 600px;
+  margin-top: 500px;
+  text-align: center;
+  z-index: 2;
+
+  
+}
+.fas fa-angle-double-down {
+
+  display: flex;
+  position: fixed;
+  bottom: 500px; 
+  padding-left: 500px;
+  z-index: 1;
+  text-align: center;
+  margin-top: 500px;
+
+
+} */
+/* ------- Tipografia e Cores ------- */
+
+body {
+  background-color: rgba(49, 49, 49, 0.938);
+  overflow-x: hidden;
+}
+/* .scroller {
+  scrollbar-color: rebeccapurple green;
+} */
+body,
+input,
+select,
+textarea {
+  font-family: "Segoe UI" Candara, "Bitstream Vera Sans", "DejaVu Sans",
+    "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.logo {
+  font-size: 24px;
+  color: #fff;
+  height: 24px;
+  height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans serif;
+  background-color: rgb(36, 36, 36);
+  height: 13vh;
+  width: 100vw;
+  position: fixed;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 10px;
+  z-index: 2;
+}
+main {
+  background: url("../Imagens/diamante-main.jpg") no-repeat;
+  height: auto;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  margin: auto;
+  display: flex;
+}
+
+.main:houver {
+  background: url("https://cdn.britannica.com/s:575x450/97/155097-004-DFAB8A45.jpg");
+}
+/*menu nav*/
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin-left: 0px;
+}
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 90px;
+}
+/* icons profile*/
+.nav-icons-list {
+  list-style: none;
+  display: flex;
+  margin-left: -100px;
+}
+.nav-icons-list  li {
+  margin-left: 45px;
+}
+/* location in map of the icon*/
+.location-nav-icons {
+  list-style: none;
+  display: inline-flexbox;
+  margin-left: 90vh;
+  z-index: 1;
+}
+.location-nav-icons li {
+  letter-spacing: 3px;
+  margin-left: 90px;
+  z-index: 1;
+  position: flex;
+}
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+}
+/* @media (min-width: 999px) {
+
+  body {
+
+    overflow-x: hidden;
+
+  }
+
+  .nav-list {
+
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 40vw;
+    height: 92vh;
+    background: rgb(26, 121, 211);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+
+  }
+  .nav-list li {
+
+    margin-left: 0;
+    opacity: 0;
+
+  }
+  .mobile-menu {
+    
+    display: block;
+
+  }
+}
+
+@keyframes navLinkFade {
+
+  from{
+
+    opacity: 0;
+    transform: translateX(50px);
+
+  }
+  to {
+
+    opacity: 1;
+    transform: translateX(0);
+
+  }
+  
+} */
+/* .nav-list.active {
+
+  transform: translateX(0);
+
+}
+.mobile-menu.active .line1 {
+
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+
+  opacity: 0;
+
+}
+
+.mobile-menu.active .line3 {
+
+  opacity: 0;
+  
+}
+
+.mobile-menu.active .line4 {
+
+  transform: rotate(45deg) translate(-5px, -7px);
+
+} */
+a:link {
+  color: #cecece;
+  text-decoration-line: none;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+a:visited {
+  color: #1479d6;
+}
+a:hover {
+  color: #1479d6;
+  text-decoration: none;
+}
+
+a:active {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: 800;
+}
+.cabecalho {
+  background-color: rgb(209, 209, 209);
+  width: 100%;
+  max-width: 100%;
+  max-width: 1486px;
+  align-items: flex-start;
+}
+.cabecalho a {
+  margin-left: 10%;
+  margin-top: 10%;
+  /* margin-inline-start: 5%; */
+  position: relative;
+  display: inline;
+}
+.division-start1 {
+  background-color: #1479d6;
+  padding-top: 105px;
+  width: 200vw;
+  z-index: 1;
+}
+.division-start2 {
+  background-color: rgb(17, 17, 17, 0.7);
+  padding-top: 20px;
+  width: 200vw;
+  z-index: 1;
+}
+.division-start3   {
+  background-color: rgb(17, 17, 17);
+  padding-top: 5px;
+  width: 200vw;
+  z-index: 1;
+}
+.conteudo {
+  background-color: rgb(17, 17, 17, 0.7);
+  text-align: justify;
+  line-height: 36px;
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 3%;
+  display: block;
+}
+.conteudo conteudo_principal p text1 {
+  font-size: 36px;
+  margin-bottom: 0.5em;
+}
+
+.text0_h1 {
+  font-size: 30px;
+  color: #1479d6;
+  font-weight: 500;
+  padding-left: 170px;
+  padding-right: 50px;
+  padding-top: 80px;
+}
+.text0 {
+  font-size: 22px;
+  color: rgb(196, 196, 196);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 35px;
+}
+.text1_h1 {
+  font-size: 30px;
+  color: #1479d6;
+  font-weight: 500;
+  padding-left: 170px;
+  padding-right: 50px;
+  padding-top: 120px;
+}
+.text1 {
+  font-size: 22px;
+  color: rgb(196, 196, 196);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 35px;
+}
+.link1 {
+  margin-top: 3%;
+  font-size: 22px;
+}
+.linkServicos {
+  font-size: 22px;
+  margin-left: 7%;
+  margin-top: 2%;
+}
+.conteudo_secundario {
+  margin-top: 4%;
+}
+.text2_h1 {
+  font-size: 30px;
+  color: #1479d6;
+  font-weight: 500;
+  padding-left: 170px;
+  padding-right: 50px;
+  padding-top: 70px;
+}
+.text2 {
+  font-size: 22px;
+  color: rgb(196, 196, 196);
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 35px;
+}
+.link2 {
+  margin-top: 3%;
+  font-size: 22px;
+}
+.linkEmpresa {
+  font-size: 27px;
+  margin-left: 7%;
+  margin-top: 2%;
+}
+.endereco-1 {
+  font-size: 18px;
+  color: #1479d6;
+  margin-left: 9%;
+  margin-top: 1%;
+  font-weight: 500;
+}
+.endereco-2 {
+  font-size: 18px;
+  color: rgb(196, 196, 196);
+  margin-top: 1%;
+  font-weight: 500;
+}
+.endereco-3 {
+  font-size: 18px;
+  color: #1479d6;
+  margin-left: 9%;
+  margin-top: 1%;
+  font-weight: 500;
+}
+.endereco-4 {
+  font-size: 18px;
+  color: rgb(196, 196, 196);
+  margin-top: 0%;
+  font-weight: 500;
+  display: inline-block;
+}
+.endereco-5 {
+  font-size: 18px;
+  color: #1479d6;
+  margin-left: 9%;
+  margin-top: 1%;
+  font-weight: 500;
+}
+.copyright {
+  font-family: Roboto;
+  font-size: 17px;
+  line-height: 140.62%;
+  color: #000;
+  font-weight: 500;
+  margin-left: 8%;
+}
+
+.telefone-email {
+  font-size: 18px;
+  color: rgb(196, 196, 196);
+  margin-left: 9%;
+  margin-top: 3%;
+  font-weight: 100;
+}
+.email-1 {
+  margin-top: 1%;
+  font-size: 18px;
+  color: #1479d6;
+  font-weight: 100;
+  margin-left: 0%;
+}
+.email-2 {
+  font-size: 18px;
+  color: rgb(196, 196, 196);
+  margin-top: 9%;
+  font-weight: 100;
+}
+.tel-1 {
+  font-size: 18px;
+  color: #1479d6;
+  margin-top: 1%;
+  font-weight: 400;
+  margin-left: 9%;
+}
+.tel-2 {
+  font-size: 18px;
+  color: rgb(196, 196, 196);
+  font-weight: 100;
+}
+.tel-3 {
+  font-size: 18px;
+  color: rgb(196, 196, 196);
+  font-weight: 100;
+}
+.rodape {
+  background-color: rgb(17, 17, 17, 0.7);
+  line-height: 30px;
+  margin: 0 auto;
+  width: 90%;
+  margin-top: 24px;
+  display: block;
+}
+.container {
+  margin-top: 2%;
+  background-color: #1479d6;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  padding: 0 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.formulario {
+  background-color: rgb(17, 17, 17, 0.7);
+  text-align: center;
+  /* line-height: 82px; */
+  margin: 0 auto;
+  width: 77%;
+  display: block;
+  height: 610px;
+  margin-top: 30px;
+}
+.fundo {
+  margin-top: 50px;
+  background-color: rgb(199, 199, 199);
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 90px;
+  height: 450px;
+  
+}
+.camponome {
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 7%;
+}
+.campotel {
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+.campoemail {
+  text-align: left;
+  margin-left: 10%;
+  margin-top: 3%;
+}
+.body_title1 {
+  margin-top: 10%;
+  font-weight: 500;
+  font-size: 26px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 3px;
+  text-align: center;
+  color: rgb(224, 224, 224);
+}
+.body_title2 {
+
+  text-align: center;
+  font-size: 32px;
+  letter-spacing: 3px;
+  color: #131313;
+  font-weight: 500;
+  margin-top: 1%;
+}
+.body_title3 {
+  text-align: center;
+  font-size: 27px;
+  letter-spacing: 2px;
+  color: #1479d6;
+  font-weight: 600;
+  margin-top: 10%;
+}
+.title {
+  text-align: left;
+  margin-left: 3%;
+  margin-top: 5%;
+}
+.ColorAtention {
+  color: #1479d6;
+  font-weight: 1000;
+  font-size: 28px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 3px;
+  margin-left: 3%;
+  margin-top: 10%;
+}
+
+/* ------- Estrutura ------- */
+
+/* ------- Estilos específicos de Seção ------- */
+
+/* ------- Formulários ------- */
+
+/* ------- Tabelas ------- */
+
+/* ------- Classes de Uso Geral ------- */
+
+input[type="text"] {
+  width: 300px;
+  box-shadow: -1px -0px;
+}
+input[type="number"] {
+  width: 280px;
+  box-shadow: -1px -0px;
+}
+input[type="email"] {
+  width: 303px;
+  box-shadow: -1px -0px;
+}

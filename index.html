@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link class="whatsapp-icon" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="CSS/Style.css" />
+    <link rel="stylesheet" href="e-commerce.css" />
+    <link rel="shortcut icon" type="imagem/x-icon" href="Imagens/icon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <title>Diamond Jewelry</title>
+
+    <script>
+      function validar() {
+        var nome = Formulario.nome.value;
+        var telefone = Formulario.telefone.value;
+        var email = Formulario.email.value;
+        // var data = Formulario.data.value;
+        // var time = Formulario.time.value;
+
+        if (nome == "") {
+          alert(
+            "Ops! Você esqueceu de preencher o campo nome ou o preencheu incorretamente."
+          );
+          Formulario.nome.focus();
+          return false;
+        }
+        if (telefone == "") {
+          alert(
+            "Ops! Você esqueceu de preencher o telefone de contato ou o preencheu incorretamente."
+          );
+          Formulario.telefone.focus();
+          return false;
+        }
+        if (email == "" || email.indexOf("@") == -1) {
+          alert(
+            "Ops! Você esqueceu de preencher o campo e-mail ou o preencheu incorretamente."
+          );
+          Formulario.email.focus();
+          return false;
+        }
+        // if (data == "") {
+        //   alert(
+        //     "Ops! Você esqueceu de preencher a data do agendamento ou a preencheu errado)."
+        //   );
+        //   Formulario.data.focus();
+        //   return false;
+        // }
+
+        // if (time == "" || || time.length < "07:00" || time.length > "18:00") {
+        //   alert(
+        //     "Ops! Você esqueceu de preencher o horário do agendamento ou o preencheu incorretamente."
+        //   );
+        //  Formulario.time.focus();
+        //   return false;
+        // }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="scroller">
+      <main>
+        <div class="site">
+          <div class="botao-whats">
+            <a
+              class="whatsapp-link"
+              href="https://web.whatsapp.com/send?phone=5511946951452"
+              target="_blank"
+            >
+              <i class="fa fa-whatsapp"></i>
+            </a>
+          </div>
+          <div class="cabecalho">
+            <header>
+              <nav>
+                <div class="logo" href="Imagens/logo.png">DIAMOND</div>
+                <div class="mobile-menu">
+                  <div class="line1"></div>
+                  <div class="line2"></div>
+                  <div class="line3"></div>
+                  <div class="line4"></div>
+                </div>
+                <div class="menu-principal">
+                  <ul class="nav-list">
+                    <li>
+                      <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                      <a href="empresa.html">Sobre</a>
+                    </li>
+                    <li>
+                      <a href="servicos.html">Serviços</a>
+                    </li>
+                    <li>
+                      <a href="contato.html">Contato</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="nav-icons">
+                  <ul class="nav-icons-list">
+                    <li>
+                      <a
+                        class="facebook-link"
+                        href="https://www.facebook.com"
+                        target="_blank"
+                        ><i class="fa fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                      <a
+                        class="instagram-link"
+                        href="https://www.instagram.com/pedroh._martins/"
+                        target="_blank"
+                        ><i class="fa fa-instagram"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a
+                        class="github-link"
+                        href="https://github.com/PehPanda"
+                        target="_blank"
+                        ><i class="fa fa-github"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </header>
+            <div class="division-start1"><span></span></div>
+            <div class="division-start2">
+              <div class="location-nav">
+                <ul class="location-nav-icons">
+                  <li>
+                    <span></span>
+                    <a
+                      class="maps-link"
+                      href="https://goo.gl/maps/iPLDsn6oJ2fhQGAD6"
+                      target="_blank"
+                      ><i class="fa fa-map-marker">Amphitheatre Parkway, 1600</i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      class="client_area-link"
+                      href="http://diamond.infinityfreeapp.com/website/"
+                      target="_blank"
+                      ><i class="fas fa-address-card"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="division-start3"><span></span></div>
+          </div>
+
+          <!-- <script src="JS/mobile-navbar.js"></script> -->
+          <br /><br /><br />
+          <div class="e-commerce_grid">
+            <br />
+            <div class="vetrine_title"><span>Vitrine virtual</span></div>
+            <li class="ul_commerce">
+              <div class="table">
+                <br />
+                <ul class="li_product1">
+                  <img class="img1" src="Imagens/esmeralda.jpg" />
+                  <p class="title">Esmerald jewelry</p>
+                  <p class="price">$100</p>
+                </ul>
+              </div>
+              <div class="table">
+                <ul class="li_product2">
+                  <img class="img2" src="Imagens/ruby.jpg" />
+                  <p class="title">Ruby jewelry</p>
+                  <p class="price">$100</p>
+                </ul>
+              </div>
+              <div class="table">
+                <ul class="li_product3">
+                  <img class="img3" src="Imagens/diamante_anel.png" />
+                  <p class="title">Diamond jewelry</p>
+                  <p class="price">$100</p>
+                </ul>
+              </div>
+              <div class="table">
+                <ul class="li_product4">
+                  <img class="img4" src="Imagens/amestista.jpg" />
+                  <p class="title">Amethyst jewelry</p>
+                  <p class="price">$100</p>
+                </ul>
+              </div>
+            </li>
+            <br />
+          </div>
+          <div class="conteudo">
+            <div class="conteudo_introdutorio">
+              <h1 class="text0_h1">Bem vindo!</h1>
+              <p class="text0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                malesuada eros lorem, nec commodo justo.Duis semper feugiat
+                turpis, sed commodo nisi semper et. Maecenas et elit leo. Duis
+                posuere elementum nulla vitae tempor. quam non odio dapibus
+                facilisis. Nulla sagittis libero in felis consectetur ac
+                consectetur erat accumsan.Maecenas ut velit vel dui viverra
+                vestibulum id a nunc. Praesent quis condimentum enim. Curabitur
+                vel risus lectus, ut viverra lorem. Aliquam erat
+                volutpat.Praesent ac sem placerat odio cursus luctus. Aenean et
+                turpis orci, non pulvinar ligula.Fusce non purus et justo
+                commodo volutpat non sed nisi. Etiam vitae mi velit. Phasellus
+                venenatis, ante quis adipiscing sodales, nisi ligula
+                pellentesque turpis, consectetur fringilla massa lacus in nulla.
+                Vestibulum commodo, dolor id vestibulum dignissim, tortor ante
+                fermentum magna, vel commodo ligula elit ac nibh.Nunc vitae urna
+                vitae erat tempor egestas sit amet interdum dolor. Duis feugiat
+                imperdiet hendrerit.Etiam dapibus iaculis neque vitae iaculis.
+                Nulla sagittis consequat magna at consequat. Vestibulum ac felis
+                metus, nec viverra elit.
+              </p>
+            </div>
+            <div class="conteudo_principal">
+              <h1 class="text1_h1">O que fazemos?</h1>
+              <p class="text1">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                malesuada eros lorem, nec commodo justo.Duis semper feugiat
+                turpis, sed commodo nisi semper et. Maecenas et elit leo. Duis
+                posuere elementum nulla vitae tempor. quam non odio dapibus
+                facilisis. Nulla sagittis libero in felis consectetur ac
+                consectetur erat accumsan.Maecenas ut velit vel dui viverra
+                vestibulum id a nunc. Praesent quis condimentum enim. Curabitur
+                vel risus lectus, ut viverra lorem. Aliquam erat
+                volutpat.Praesent ac sem placerat odio cursus luctus. Aenean et
+                turpis orci, non pulvinar ligula.Fusce non purus et justo
+                commodo volutpat non sed nisi. Etiam vitae mi velit.
+              </p>
+              <div class="link1">
+                <a class="linkServicos" href="servicos.html">
+                  ➭ Venha conhecer os nossos serviços!</a
+                >
+              </div>
+            </div>
+
+            <div class="conteudo_secundario">
+              <h1 class="text2_h1">Sobre a empresa</h1>
+              <p class="text2">
+                Phasellus venenatis, ante quis adipiscing sodales, nisi ligula
+                pellentesque turpis, consectetur fringilla massa lacus in nulla.
+                Vestibulum commodo, dolor id vestibulum dignissim, tortor ante
+                fermentum magna, vel commodo ligula elit ac nibh.Nunc vitae urna
+                vitae erat tempor egestas sit amet interdum dolor. Duis feugiat
+                imperdiet hendrerit.Etiam dapibus iaculis neque vitae iaculis.
+                Nulla sagittis consequat magna at consequat. Vestibulum ac felis
+                metus, nec viverra elit.
+              </p>
+              <div class="link2">
+                <a class="linkEmpresa" href="empresa.html"> ➭ Saiba mais!</a>
+              </div>
+            </div>
+            <br /><br /><br />
+          </div>
+          <br /><br /><br />
+          <form>
+            <div class="formulario">
+              <b class="body_title1"
+                ><span class="ColorAtention">Registre-se: </span>Preencha o
+                formulário e tornar-se cliente para receber ofertas
+                limitadas.</b
+              >
+              <div class="fundo">
+                <div class="text1">
+                  <p class="body_title2">Cadastre-se já!</p>
+                </div>
+                <div class="camponome">
+                  <label> Nome: </label>
+                  <input type="text" name="nome" />
+                </div>
+                <div class="campotel">
+                  <label> Telefone: </label>
+                  <input type="number" name="telefone" />
+                </div>
+
+                <div class="campoemail">
+                  <label> Email: </label>
+                  <input type="email" name="email" />
+                </div>
+                <div class="congratulation">
+                  <p class="body_title3">
+                    Nós da Diamond temos o prazer de tê-lo como cliente.
+                  </p>
+                </div>
+                <!-- <div class="agenda">
+                  <label for="data">Data:</label>
+                  <input type="date" for="data" name="data" />
+                </div>
+
+                <div class="horario">
+                  <label for="time">Horário:</label>
+                  <input
+                    type="time"
+                    for="time"
+                    name="time"
+                    min="07:00"
+                    max="18:00"
+                    value="07:00"
+                  />
+                </div> -->
+              </div>
+              <br />
+            </div>
+          </form>
+          <br /><br /><br />
+          <div class="rodape">
+            <br />
+            <div class="telefone-email">
+              <p class="email-1">
+                Email: <span class="email-2"> contato123@email.com</span>
+              </p>
+            </div>
+            <div class="telefone">
+              <p class="tel-1">
+                Telefone:
+                <span class="tel-2"> (11)</span>
+                <span class="tel-3"> 1234-5678</span>
+              </p>
+            </div>
+            <div class="endereco">
+              <p class="endereco-1">
+                Endereço:
+                <span class="endereco-2"
+                  >Amphitheatre Parkway, 1600, Mountain View.</span
+                >
+              </p>
+              <p class="endereco-3">
+                CEP: <span class="endereco-4"> 80000-000.</span>
+              </p>
+              <p class="endereco-5">California, United States of America.</p>
+            </div>
+            <br /><br /><br />
+          </div>
+          <div class="container">
+            <small class="copyright">
+              &copy; Empresa Ltda. Todos os Direitos Reservados.
+            </small>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

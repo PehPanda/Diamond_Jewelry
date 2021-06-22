@@ -1,0 +1,96 @@
+.e-commerce_grid {
+  background-color: rgb(17, 17, 17, 0.7);
+  text-align: justify;
+  line-height: 82px;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 37%;
+  display: block;
+}
+
+.ul_commerce {
+  margin-top: 1%;
+  text-align: center;
+  margin-left: 80px;
+  margin-right: 90px;
+  background-color: rgba(255, 255, 255, 0.500);
+  height: 560px;
+
+}
+.li_product1 {
+  margin-left: 5%;
+  margin-top: 20%;
+  display: table-row-group;
+  position: static;
+  background-color: rgb(199, 199, 199);
+  text-align: center;
+  height: 10px;
+}
+.li_product2 {
+  margin-left: 5%;
+  margin-top: 20%;
+  display: table-row-group;
+  position: static;
+  background-color: rgb(199, 199, 199);
+  text-align: center;
+}
+.li_product3 {
+  margin-left: 5%;
+  margin-top: 20%;
+  display: table-row-group;
+  position: static;
+  background-color: rgb(199, 199, 199);
+  text-align: center;
+}
+.li_product4 {
+  margin-left: 5%;
+  margin-top: 20%;
+  display: table-row-group;
+  position: static;
+  background-color: rgb(199, 199, 199);
+  text-align: center;
+}
+p.title {
+  color: rgb(31, 140, 212);
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+p.price {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.table {
+
+  background-color: rgb(141, 141, 141);
+  margin-left: 40px;
+  display: inline;
+  margin-top: 10%;
+}
+.img1 {
+  width: 250px;
+  height: 200px;
+}
+.img2 {
+  width: 250px;
+  height: 200px;
+}
+.img3 {
+  width: 250px;
+  height: 200px;
+}
+.img4 {
+  width: 250px;
+  height: 200px;
+}
+.vetrine_title {
+  color: #fff;
+  text-align: center;
+  font-size: 45px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 2px;
+}
